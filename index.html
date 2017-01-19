@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://maps.googleapis.com/maps/api/js?libraries=places"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+    <script src="infobubble-compiled.js"></script>
+    <script src="store-locator.min.js"></script>
+    <script src="location-static-ds.js"></script>
+    <script src="custom.js"></script>
+    <link rel="stylesheet" href="storelocator.css">
+    <style>
+      body { font-family: sans-serif; }
+      #map-canvas, #panel { height: 500px; width: 500px; }
+      #panel { width: 300px; float: left; margin-right: 10px; }
+      #panel .feature-filter label { width: 130px; }
+      p.attribution, p.attribution a { color: #666; }
+      .store .hours { color: grey; }
+    </style>
+  </head>
+  <body>
+    <div id="panel"></div>
+    <div id="map-canvas"></div>
+  </body>
+</html>

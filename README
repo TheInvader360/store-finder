@@ -1,0 +1,6 @@
+Simple store finder implementation
+Retrieves store location data from csv file and displays them on map
+Specify a location (or pan/zoom map) to list stores by distance ascending
+
+./deploy.sh
+http://127.0.0.1:8080/finder
